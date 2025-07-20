@@ -6,7 +6,6 @@ export default defineConfig({
   title: "Lab759 Docs",
   description: "Notes on used MCU boards and other hardware",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "Home", link: "/" }],
 
     sidebar: [
@@ -22,7 +21,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/lab759/labnotes" },
     ],
   },
 });
