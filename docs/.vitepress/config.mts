@@ -23,5 +23,9 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/lab759/labnotes" },
     ],
+
+    search: {
+      provider: "local",
+    },
   },
 });
